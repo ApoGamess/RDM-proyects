@@ -1,107 +1,122 @@
-# Structural Math Calculator
+🧪 Random Projects Lab / Laboratorio de Proyectos Aleatorios
 
-Aplicación web educativa y visual para matemática estructural. La interfaz permite elegir un módulo de cálculo, ingresar datos, obtener resultados con unidades, ver el procedimiento matemático completo y revisar diagramas o representaciones estructurales sin depender de librerías externas.
+Welcome to my personal collection of random projects.
+Bienvenido a mi colección personal de proyectos aleatorios.
 
-## Funcionalidades implementadas
+📌 About / Sobre este repositorio
 
-- Esfuerzo normal: `sigma = F / A`
-- Deformación unitaria: `epsilon = deltaL / L`
-- Ley de Hooke con despeje de `sigma`, `E` o `epsilon`
-- Momento: `M = F * d`
-- Vigas simplemente apoyadas con:
-  - carga puntual
-  - carga distribuida uniforme
-  - reacciones en apoyos
-  - diagrama de carga
-  - diagrama de cortante
-  - diagrama de momento flector
-- Deflexión para carga puntual centrada: `delta = (P * L^3) / (48 * E * I)`
-- Momento de inercia para:
-  - rectángulo
-  - círculo
-  - triángulo
-- Conversión de unidades:
-  - `N <-> kN`
-  - `mm <-> cm <-> m`
-  - `Pa <-> MPa <-> GPa`
-- Modo aprendizaje con:
-  - teoría breve
-  - explicación de variables
-  - contexto de uso
-  - ejemplo resuelto automáticamente
+This repository contains a variety of projects I’ve built for different reasons:
 
-## Stack
+experimentation
+curiosity
+learning
+boredom 😅
 
-- Frontend: HTML, CSS y JavaScript modular
-- Visualización: SVG y Canvas nativos
-- Servidor local: Python estándar con `http.server`
+Este repositorio contiene distintos proyectos creados por diferentes razones:
 
-## Estructura del proyecto
+experimentación
+curiosidad
+aprendizaje
+aburrimiento 😅
 
-```text
-.
-|-- main.py
-|-- README.md
-|-- README_AI.md
-`-- web
-    |-- index.html
-    |-- styles.css
-    `-- js
-        |-- app.js
-        |-- engineering.js
-        |-- modules-data.js
-        `-- visualizations.js
-```
+Not everything here is meant to be perfect — some things are just ideas brought to life.
+No todo aquí está hecho para ser perfecto — algunos proyectos son simplemente ideas hechas realidad.
 
-## Instalación y ejecución
+🌎 Language / Idioma
 
-1. Asegura tener Python 3 instalado.
-2. Desde la raíz del proyecto ejecuta:
+This repo is bilingual (English & Spanish).
 
-```bash
-python3 main.py
-```
+Este repositorio es bilingüe (inglés y español).
 
-3. Abre en el navegador:
+Depending on the project, you may find:
 
-```text
-http://localhost:8000
-```
+Code in English
+Comments in Spanish
+Mixed documentation
 
-## Uso básico
+Dependiendo del proyecto, podés encontrar:
 
-1. Selecciona un módulo en el panel lateral.
-2. Completa los campos del formulario.
-3. Presiona `Calcular`.
-4. Usa `Mostrar desarrollo` para ver u ocultar:
-   - Fórmula general
-   - Sustitución de valores
-   - Resolución paso a paso
-   - Resultado final
-   - Interpretación del resultado
-5. Revisa la visualización inferior y el bloque de `Modo aprendizaje`.
+Código en inglés
+Comentarios en español
+Documentación mezclada
+🧠 Purpose / Propósito
 
-## Diseño técnico
+The main goal of this repository is to:
 
-- La app está preparada para crecer a partir de metadatos por módulo en [`modules-data.js`](/workspaces/RDM-proyects/web/js/modules-data.js).
-- La lógica de ingeniería está centralizada en [`engineering.js`](/workspaces/RDM-proyects/web/js/engineering.js).
-- Las visualizaciones están desacopladas en [`visualizations.js`](/workspaces/RDM-proyects/web/js/visualizations.js).
-- La UI principal y los formularios dinámicos viven en [`app.js`](/workspaces/RDM-proyects/web/js/app.js).
+Explore new technologies
+Test ideas quickly
+Learn by building
+Create without overthinking
 
-## Próximas ampliaciones sugeridas
+El objetivo principal de este repositorio es:
 
-- Análisis de armaduras
-- Método de nodos
-- Método de secciones
-- Pórticos
-- Más tipos de apoyos
-- Más tipos de carga
-- Secciones compuestas
-- Exportación de reportes de cálculo
+Explorar nuevas tecnologías
+Probar ideas rápidamente
+Aprender construyendo
+Crear sin sobrepensar
+⚠️ Important / Importante
 
-## Limitaciones actuales
+Some projects here:
 
-- Los diagramas de vigas cubren la versión base para vigas simplemente apoyadas.
-- La deflexión implementada corresponde al caso clásico de carga puntual centrada.
-- El momento de inercia de secciones compuestas y perfiles reales aún no está incluido.
-- No hay persistencia de cálculos ni exportación a PDF en esta versión base.
+may be incomplete
+may not follow best practices
+may break
+may exist just for fun
+
+Algunos proyectos aquí:
+
+pueden estar incompletos
+pueden no seguir buenas prácticas
+pueden fallar
+pueden existir solo por diversión
+🛠️ Project Types / Tipos de proyectos
+
+You might find things like:
+
+small apps
+experiments with AI 🤖
+web tools
+automation scripts
+random ideas turned into code
+
+Podés encontrar cosas como:
+
+apps pequeñas
+experimentos con IA 🤖
+herramientas web
+scripts de automatización
+ideas random convertidas en código
+🚀 Philosophy / Filosofía
+
+“Build first, improve later.”
+
+“Crear primero, mejorar después.”
+
+📂 Structure / Estructura
+
+Each project may have its own folder and setup.
+Some are clean, some are chaos — that’s part of the process.
+
+Cada proyecto puede tener su propia carpeta y estructura.
+Algunos están ordenados, otros no — es parte del proceso.
+
+📖 Notes / Notas
+Some projects are serious
+Others exist because I was bored at 2AM
+Both are equally important 😄
+Algunos proyectos son serios
+Otros existen porque estaba aburrido a las 2AM
+Ambos son igual de importantes 😄
+🤝 Contributions / Contribuciones
+
+Not really focused on contributions, but feel free to explore, fork, or get inspired.
+
+No está enfocado en contribuciones, pero podés explorar, hacer fork o inspirarte.
+
+⭐ Final Note / Nota final
+
+If something here works… great.
+If it doesn’t… it was still worth building.
+
+Si algo funciona… genial.
+Si no… igual valió la pena hacerlo.
